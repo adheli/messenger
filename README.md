@@ -27,3 +27,13 @@ Imagine we are making a private messaging service for our new company Perry’s 
 * We do not expect you do handle any kind of authentication for users.
 * Treat this as a proof of concept, so documentation is not important.
 * Have fun with it!
+
+# How to execute:
+* Clone project
+$ cd messenger
+$ mvn clean install
+OR
+$ ./mvnw clean install
+$ docker-compose up -d
+When docker container is up, API can be accessed under http://0.0.0.0:8084/perry/messenger
+A Postman collection is available.
