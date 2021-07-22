@@ -38,4 +38,6 @@ $ ./mvnw clean install
 $ docker-compose up -d
 ```
 When docker container is up, API can be accessed under http://0.0.0.0:8084/perry/messenger
-A Postman collection is available.
+
+## A Postman collection is available.
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/3266770-04b8957b-9fd2-4afd-8336-57574fb7356e?action=collection%2Ffork&collection-url=entityId%3D3266770-04b8957b-9fd2-4afd-8336-57574fb7356e%26entityType%3Dcollection%26workspaceId%3De3349fbc-d632-4085-941c-22f14b34da40)
