@@ -30,10 +30,12 @@ Imagine we are making a private messaging service for our new company Perry’s 
 
 # How to execute:
 * Clone project
+```sh
 $ cd messenger
 $ mvn clean install
 OR
 $ ./mvnw clean install
 $ docker-compose up -d
+```
 When docker container is up, API can be accessed under http://0.0.0.0:8084/perry/messenger
 A Postman collection is available.
