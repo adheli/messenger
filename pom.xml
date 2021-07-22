@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tavares</groupId>
-	<artifactId>messeger</artifactId>
+	<artifactId>messenger</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>messeger</name>
+	<name>messenger</name>
 	<description>Project for testing my skills</description>
 	<properties>
 		<java.version>11</java.version>
@@ -50,6 +50,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.awaitility</groupId>
+			<artifactId>awaitility</artifactId>
+			<version>4.1.0</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>

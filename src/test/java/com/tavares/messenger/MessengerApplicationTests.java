@@ -1,10 +1,10 @@
-package com.tavares.messeger;
+package com.tavares.messenger;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MessegerApplicationTests {
+class MessengerApplicationTests {
 
 	@Test
 	void contextLoads() {
